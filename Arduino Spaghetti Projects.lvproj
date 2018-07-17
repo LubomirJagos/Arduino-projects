@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Complex Operations 1.vi" Type="VI" URL="../Test Complex Operations 1.vi"/>
 		<Item Name="Test MPU6050 1.vi" Type="VI" URL="../Test MPU6050 1.vi"/>
+		<Item Name="Test Static Complex Numbers 1.vi" Type="VI" URL="../Test Static Complex Numbers 1.vi"/>
 		<Item Name="Transcript VIs and Upload.vi" Type="VI" URL="../Transcript VIs and Upload.vi"/>
 		<Item Name="Transcript VIs.vi" Type="VI" URL="../Transcript VIs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -29,6 +30,7 @@
 				<Item Name="Cluster to C code.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Cluster to C code.vi"/>
 				<Item Name="Compile for Arduino.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Compile for Arduino.vi"/>
 				<Item Name="Complex Numbers.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino for LabVIEW Complex numbers/Complex Numbers.lvlib"/>
+				<Item Name="ComplexNumberStatic.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/ComplexNumberStatic.lvclass"/>
 				<Item Name="delay.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/delay.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get Class Hierarchy from Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/Get Class Hierarchy from Class Name.vi"/>
