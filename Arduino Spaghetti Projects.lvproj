@@ -12,12 +12,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Complex Operations 1.vi" Type="VI" URL="../Test Complex Operations 1.vi"/>
 		<Item Name="Test MPU6050 1.vi" Type="VI" URL="../Test MPU6050 1.vi"/>
+		<Item Name="Test SD 1.vi" Type="VI" URL="../Test SD 1.vi"/>
 		<Item Name="Test Static Complex Numbers 1.vi" Type="VI" URL="../Test Static Complex Numbers 1.vi"/>
 		<Item Name="Transcript VIs and Upload.vi" Type="VI" URL="../Transcript VIs and Upload.vi"/>
 		<Item Name="Transcript VIs.vi" Type="VI" URL="../Transcript VIs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Arduino MPU6050.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/Arduino MPU6050.lvlib"/>
+				<Item Name="begin.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/begin.vi"/>
 				<Item Name="CaseStructure Format FrameNames Into C code Strings.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/CaseStructure Format FrameNames Into C code Strings.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -30,8 +31,9 @@
 				<Item Name="Cluster to C code.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Cluster to C code.vi"/>
 				<Item Name="Compile for Arduino.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Compile for Arduino.vi"/>
 				<Item Name="Complex Numbers.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino for LabVIEW Complex numbers/Complex Numbers.lvlib"/>
-				<Item Name="ComplexNumberStatic.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/ComplexNumberStatic.lvclass"/>
+				<Item Name="Create.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/Create.vi"/>
 				<Item Name="delay.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/delay.vi"/>
+				<Item Name="Divide.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/Divide.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get Class Hierarchy from Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/Get Class Hierarchy from Class Name.vi"/>
 				<Item Name="Get Output Terminals.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Get Output Terminals.vi"/>
@@ -51,8 +53,11 @@
 				<Item Name="Loop Get Input Output Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Loop Get Input Output Assignements.vi"/>
 				<Item Name="Loop Get ShiftRegister Input Output Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Loop Get ShiftRegister Input Output Assignements.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Modulus.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/Modulus.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Phase.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/Phase.vi"/>
+				<Item Name="readNormalizeAccel.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/readNormalizeAccel.vi"/>
 				<Item Name="Reference To UID.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Reference To UID.vi"/>
 				<Item Name="Serial begin.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/Serial begin.vi"/>
 				<Item Name="Serial end.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/Serial end.vi"/>
@@ -70,6 +75,7 @@
 				<Item Name="SubVI Translate.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/SubVI Translate.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="System Function Call Translator If Exists.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/System Function Call Translator If Exists.vi"/>
+				<Item Name="To String.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/To String.vi"/>
 				<Item Name="Transcriptor LabVIEW for Arduino.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW for Arduino.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Arduino Frontend.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Arduino Frontend.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Arduino GUI.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Arduino GUI.vi"/>
