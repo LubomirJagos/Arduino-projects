@@ -11,14 +11,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Complex Operations 1.vi" Type="VI" URL="../Test Complex Operations 1.vi"/>
+		<Item Name="Test Library 1.vi" Type="VI" URL="../../LabVIEW-Universal-Transcriptor-ServoLibrary/Test Library/Test Library 1.vi"/>
 		<Item Name="Test MPU6050 1.vi" Type="VI" URL="../Test MPU6050 1.vi"/>
 		<Item Name="Test SD 1.vi" Type="VI" URL="../Test SD 1.vi"/>
+		<Item Name="Test Servo 1.vi" Type="VI" URL="../Test Servo 1.vi"/>
 		<Item Name="Test Static Complex Numbers 1.vi" Type="VI" URL="../Test Static Complex Numbers 1.vi"/>
 		<Item Name="Transcript VIs and Upload.vi" Type="VI" URL="../Transcript VIs and Upload.vi"/>
 		<Item Name="Transcript VIs.vi" Type="VI" URL="../Transcript VIs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="begin.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/begin.vi"/>
+				<Item Name="Arduino MPU6050.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/Arduino MPU6050.lvlib"/>
 				<Item Name="CaseStructure Format FrameNames Into C code Strings.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/CaseStructure Format FrameNames Into C code Strings.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -50,6 +52,7 @@
 				<Item Name="LabVIEW Universal Transcriptor Arduino Boards Specific Names.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/types/LabVIEW Universal Transcriptor Arduino Boards Specific Names.ctl"/>
 				<Item Name="LabVIEW Universal Transcriptor C code Composer Input Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/types/LabVIEW Universal Transcriptor C code Composer Input Cluster.ctl"/>
 				<Item Name="LabVIEW Universal Transcriptor Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/types/LabVIEW Universal Transcriptor Cluster.ctl"/>
+				<Item Name="LabVIEW Universal Trasncriptor Servo.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino ServoLibrary/LabVIEW Universal Trasncriptor Servo.lvlib"/>
 				<Item Name="Loop Get Input Output Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Loop Get Input Output Assignements.vi"/>
 				<Item Name="Loop Get ShiftRegister Input Output Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Loop Get ShiftRegister Input Output Assignements.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
@@ -57,7 +60,6 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Phase.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Complex Numbers Static/Phase.vi"/>
-				<Item Name="readNormalizeAccel.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino MPU6050 Library/readNormalizeAccel.vi"/>
 				<Item Name="Reference To UID.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Reference To UID.vi"/>
 				<Item Name="Serial begin.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/Serial begin.vi"/>
 				<Item Name="Serial end.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/System API/Serial end.vi"/>
@@ -85,6 +87,7 @@
 				<Item Name="Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 1 and 2 Wires Declarations and Assignements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 3 Translate Elements.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 3 Translate Elements.vi"/>
 				<Item Name="Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/Transcriptors/2/Transcriptor LabVIEW to C code Step 4 Assign Output Values.vi"/>
+				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino ServoLibrary/TranscriptorBasicObject.lvclass"/>
 				<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unbundle Code Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Unbundle Code Cluster.vi"/>
@@ -92,6 +95,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Wire Is Different as WhileLoop EndRef Wire.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW to Arduino Transcriptor/utils/Wire Is Different as WhileLoop EndRef Wire.vi"/>
 			</Item>
+			<Item Name="LabVIEW Universal Trasncriptor Servo.lvlib" Type="Library" URL="../../LabVIEW-Universal-Transcriptor-ServoLibrary/LabVIEW Universal Trasncriptor Servo.lvlib"/>
+			<Item Name="TranscriptorBasicObject.lvclass" Type="LVClass" URL="../../LabVIEW-Universal-Transcriptor/utils/TranscriptorBasicObject.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
